@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // Replace these with your actual details
     char name[] = "John Doe";
     int age = 25;
     char location[] = "New York, USA";
