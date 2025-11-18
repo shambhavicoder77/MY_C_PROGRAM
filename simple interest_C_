@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+float principle,rate,time,SI;
+printf("enter principle amount");
+scanf("%f",& principle);
+printf("enter the rate of interest");
+scanf("%f",&  rate);
+printf("enter time (in years)");
+scanf("%f",& time);
+SI=(p*r*t)/100;
+printf("sI=%.2f\n",si);
+}
