@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main() {
+    struct shambhu {
+        int pen;
+        float gold;
+        char mark[10];
+    };
+    struct shambhu s;
+    printf("enter pen amount\n");
+    scanf("%d",&s.pen);
+    printf("enter gold amount\n");
+    scanf("%f",&s.gold);
+    printf("enter mark\n");
+    scanf("%s",&s.mark);
+    printf("%d %f %s",s.pen,s.gold,s.mark);
+}
+
+o/p
+enter pen amount
+20
+enter gold amount
+1500
+enter mark
+98
+20 1500.000000 98
